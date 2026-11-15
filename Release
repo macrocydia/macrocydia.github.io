@@ -1,21 +1,28 @@
-Date: Sun, 15 Nov 2026 20:08:21 +0000
+Origin: oscar's fuckass repo that has nothing in it
+Label: oscar's fuckass repo
+Suite: stable
+Codename: stable
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: packages that dont need to be here
+Date: Sun, 15 Nov 2026 20:31:57 +0000
 MD5Sum:
  8a139614633c0f4cd175920f36e9c2a7              601 Packages
  d6952da884cb01aa199ecf8b2266d0f5              456 Packages.bz2
  292a10bff3f938f5c588d909d63c9ab3              423 Packages.gz
- 37133c743ae886c6d2970ae2ce581666               38 Release
+ ccedb3a609e7617a0a22c0b0cd8f3120              238 Release
 SHA1:
  2476b68b99f36f1a435c31ce07a6af881d627f90              601 Packages
  c935be93b72d277506933e28f498975e80aa3981              456 Packages.bz2
  c1655e1604e7ee5211684a5df25b33f34bc7bdc4              423 Packages.gz
- ce0c09599e0fe5ab26bc8a4b5ac04acbcf57049d               38 Release
+ 43e3136d490c9ead58f16d3beffa25f0123d9e24              238 Release
 SHA256:
  677a18f3d23589a97f1ae9b4febe44c1a3c9a3cee9b5ccb8d8f8484dc50a7488              601 Packages
  2caceaf6150dbee8c9ef55356e2b4fe04fe4bad0e7dd3064c6ed8bd0804f6fa3              456 Packages.bz2
  29cbf1c5d97fe67cbeeaec8f0c5af996fffb77b7a1671b0feb5e3a29f5388f45              423 Packages.gz
- 1260087a830d7e217dcc16159c09ff693adccc4114c7dc0ee1c757fb40d205ac               38 Release
+ 3b4b8bf4a9ff7a654eb9956f2ce3697735b7d4110b81d66d81c27c635bbbb74e              238 Release
 SHA512:
  df4798e468dc3d90c8b74669e99c51f98ba86c6c6b0dd68e8caa036b966bbcac4d9838b414c1f920764890d24f09233b7786c0879b5488114dfbd311f7685585              601 Packages
  2ae014225a88eb546a0263eae4cb3704af58c5749eb7aa72be1abb08f7f01145dcdedd827b5c28949c0bd0723180e681921929716a35f5e9b4b45e7fdaf417c6              456 Packages.bz2
  e1d19566872196873782d5c9f4563d6ab64af98c6e281fe27fef0c672b12974e503425f02860ff6f70ceb3d55b5d1dcd6c55c36e3fde8bfa84fe23feceea0439              423 Packages.gz
- cd3c8f546cca170d42d1daca43005e730d1fabcfdaecea98fb4bdbb81b1c8671e21eafe1abc1c5b202faa49b1918237d3463daed97ffcb553d041d9459f9f1f1               38 Release
+ f4ab8ce09abbb06219da1451be03af5f7c493a9e06c21a057789d9ac98d820dcdf226175ecd3034b827208b72bf680e8f0595c44924542a748d1c5d429071e23              238 Release
