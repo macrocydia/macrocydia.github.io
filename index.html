@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#baff00">
+
+    <title>oscar's fuckass repo that has nothing in it (patent pending)</title>
+
+    <style>
+        img {
+            width: "2000px";
+            height: "2000px";
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background-color: #baff00;
+            background-image:
+                repeating-linear-gradient(
+                    45deg,
+                    transparent,
+                    transparent 12px,
+                    rgba(255, 0, 255, .2) 12px,
+                    rgba(255, 0, 255, .2) 24px
+                );
+            font-family: "Comic Sans MS", cursive;
+            color: #ff00aa;
+        }
+
+        main {
+            width: min(540px, 92%);
+            margin: 45px auto;
+            text-align: center;
+        }
+
+        .banner {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+        }
+
+        .repo-button {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+
+            min-height: 72px;
+            padding: 12px 20px;
+            overflow: hidden;
+
+            color: #fff;
+            background: #171717;
+            border: 1px solid rgba(255,255,255,.18);
+            border-radius: 15px;
+            text-decoration: none;
+
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 16px;
+            font-weight: 650;
+            letter-spacing: .2px;
+
+            box-shadow: 0 5px 12px rgba(0,0,0,.2);
+
+            transition:
+                transform .2s ease,
+                box-shadow .2s ease,
+                border-color .2s ease;
+        }
+
+        .repo-button::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(255,255,255,0);
+            pointer-events: none;
+            transition: background .2s ease;
+        }
+
+        .repo-button:hover {
+            transform: translateY(-3px);
+            border-color: rgba(255,255,255,.6);
+            box-shadow: 0 9px 22px rgba(0,0,0,.3);
+        }
+
+        .repo-button:hover::after {
+            background: rgba(255,255,255,.14);
+        }
+
+        .repo-button:active {
+            transform: scale(.975);
+        }
+
+        .repo-button:focus-visible {
+            outline: 3px solid white;
+            outline-offset: 4px;
+        }
+
+        .repo-button img {
+            position: relative;
+            z-index: 1;
+
+            width: 46px;
+            height: 46px;
+            object-fit: contain;
+            border-radius: 11px;
+            flex-shrink: 0;
+        }
+
+        .repo-button span {
+            position: relative;
+            z-index: 1;
+            text-align: left;
+        }
+
+        .arrow {
+            margin-left: auto;
+            color: #888;
+            font-family: sans-serif;
+            font-size: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .repo-button {
+                transition: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <img
+            class="banner"
+            src="index.gif"
+            alt="Oscar's Fuckass Repo"
+            height="2000px"
+            weight="200px"
+        >
+
+        <div class="buttons">
+
+            <a class="repo-button"
+               href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.ovmprojects.com/">
+                <img src="icons/cydia.png" alt="Cydia icon">
+                <span>Add to Cydia</span>
+                <span class="arrow">↗</span>
+            </a>
+
+            <a class="repo-button"
+               href="sileo://source/https://repo.ovmprojects.com/">
+                <img src="icons/sileo.png" alt="Sileo icon">
+                <span>Add to Sileo</span>
+                <span class="arrow">↗</span>
+            </a>
+
+            <a class="repo-button"
+               href="zbra://sources/add/https://repo.ovmprojects.com/">
+                <img src="icons/zebra.svg" alt="Zebra icon">
+                <span>Add to Zebra</span>
+                <span class="arrow">↗</span>
+            </a>
+
+            <a class="repo-button"
+               href="installer://add/repo=https://repo.ovmprojects.com/">
+                <img src="icons/installer.png" alt="Installer icon">
+                <span>Add to Installer</span>
+                <span class="arrow">↗</span>
+            </a>
+
+        </div>
+    </main>
+</body>
+</html>

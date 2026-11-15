@@ -1,0 +1,17 @@
+Package: com.macciti.6god
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: iC <apt@macciti.com>
+Depends: com.anemonetheming.anemone
+Filename: debs/com.macciti.6god_1.1_iphoneos-arm.deb
+Size: 3414028
+MD5sum: b799bf124e8e8a78e270bf5a35eee0d0
+SHA1: 30093360e24d098cc833e2064baf47dac2adb41e
+SHA256: f042f5e03210722fffa17e5ed77e2800b8c1ab599cc2bcff113843f0f6f71cbf
+Section: Themes (SpringBoard)
+Description: iOS 6 on iOS 9
+Author: AhmadNagy <ahmad.ios.tweaks@gmail.com>
+Depiction: http://www.macciti.com/pages/6god/index.php
+Name: 6God
+Sponsor: MacCiti <http://www.macciti.com/cydia/pages/sponsor.php>
+
